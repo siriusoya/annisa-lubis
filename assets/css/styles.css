@@ -378,7 +378,8 @@ a {
 }
 
 .home__social-link:hover {
-  background-color: var(--black-color);
+  background-color: var(--pear-color);
+  transform: translate(0.25rem, 0.25rem);
 }
 
 .home__info {
@@ -460,6 +461,13 @@ a {
   padding: 0.25em 1em;
   text-align: center;
   box-shadow: 2px 3px 0px 0px rgb(0, 0, 0, 1);
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button:hover{
+  transform: translate(0.25rem, 0.25rem);
+  background-color: var(--pear-color);
 }
 
 .about__buttons {
@@ -523,7 +531,7 @@ a {
 }
 
 .services__card:hover {
-  transform: translate(0.5rem, 0.5rem);
+  transform: translate(0.25rem, 0.25rem);
 }
 
 .services__content {
