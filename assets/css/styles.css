@@ -121,7 +121,7 @@ a {
 .section__title-2 span {
   z-index: 5;
   position: relative;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   color: #fe5f55;
   font-weight: 900;
   text-align: center;
